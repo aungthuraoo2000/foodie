@@ -1,0 +1,62 @@
+$primary : #097c29;
+$success : #ffffff;
+$navbar-nav-link-padding-x: 1.5rem;
+// $nav-pills-link-active-color : $success;
+$nav-pills-link-active-bg : $primary;
+$nav-pills-border-radius : 0.5rem;
+$font-family-sans-serif : 'Montserrat', sans-serif;
+$btn-padding-x : 1.2rem;
+$btn-padding-y : 0.6rem;
+$btn-border-radius : 0.5rem;
+$btn-padding-x-sm : $btn-padding-x;
+$btn-padding-y-sm : $btn-padding-y;
+$btn-border-radius-sm : $btn-border-radius;
+$btn-font-size-sm : 12px;
+
+
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./node_modules/bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap');
+
+
+
+// .navigation-bar{
+//   position: fixed;
+//   width: 100%;
+// }
+
+.brand-text{
+  font-weight: bold;
+  color: $primary;
+}
+
+.nav-link.active{
+  color: $success !important;
+}
+
+#information a{
+  text-decoration: none;
+  display: block;
+  color: var(--text-black-50);
+}
+
+#information p{
+  margin-bottom: 0;
+}
+
+#information i{
+  color: $primary;
+}
+
+#information a{
+  margin-bottom: 5px;
+}
+
+.info-mb{
+  margin-bottom: 5px !important;
+}
+
+.contact-us-text{
+  width: 80%;
+}
